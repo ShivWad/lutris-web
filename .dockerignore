@@ -1,0 +1,13 @@
+.git
+.agents
+.codex
+.aws
+.opencode
+.impeccable
+.next
+node_modules
+data
+imports
+*.log
+*.tsbuildinfo
+.env*

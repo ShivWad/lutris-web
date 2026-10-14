@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T05:36:04.293660+00:00",
+  "title": "Design System: My Game Library",
+  "extensions": {
+    "colorMeta": {
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Archive Graphite",
+        "canonical": "#0e1010",
+        "tonalRamp": [
+          "#0e1010",
+          "#151817",
+          "#1c201e",
+          "#343936",
+          "#666a65",
+          "#aba99f",
+          "#d8d4c8",
+          "#f1eddf"
+        ]
+      },
+      "archive-brass": {
+        "role": "primary",
+        "displayName": "Registration Brass",
+        "canonical": "#d5ad5e",
+        "tonalRamp": [
+          "#211b0e",
+          "#3f331c",
+          "#65512d",
+          "#8b703e",
+          "#b4914f",
+          "#d5ad5e",
+          "#e8c986",
+          "#f7e7bf"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Archivo Display",
+        "purpose": "Page and game titles."
+      },
+      "body": {
+        "displayName": "Manrope Body",
+        "purpose": "Controls and metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "brand-mark",
+        "value": "0 7px 18px rgba(0,0,0,.35)",
+        "purpose": "Small brass brand mark."
+      },
+      {
+        "name": "active-control",
+        "value": "0 8px 22px rgba(0,0,0,.28)",
+        "purpose": "Active navigation."
+      },
+      {
+        "name": "primary-control",
+        "value": "0 7px 20px rgba(0,0,0,.28)",
+        "purpose": "Refresh action."
+      },
+      {
+        "name": "lifted-cover",
+        "value": "0 14px 25px rgba(0,0,0,.4)",
+        "purpose": "Cover hover."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 10px 35px rgba(0,0,0,.55)",
+        "purpose": "Fixed mobile navigation."
+      },
+      {
+        "name": "dialog",
+        "value": "0 24px 70px rgba(0,0,0,.62)",
+        "purpose": "Rebuild confirmation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ledger-reveal",
+        "value": "380ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Clip and deblur the selected-record ledger."
+      },
+      {
+        "name": "cover-hover",
+        "value": "250ms cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Cover lift on hover; reduced-motion overrides the duration."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-mobile",
+        "value": "520px"
+      },
+      {
+        "name": "compact",
+        "value": "820px"
+      },
+      {
+        "name": "narrow-desktop",
+        "value": "1180px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The deliberate refresh action.",
+      "html": "<button class=\"ds-primary\">Refresh library</button>",
+      "css": ".ds-primary{border:0;background:#f1eddf;color:#181814;border-radius:12px;padding:10px 14px;font:750 13px \"Manrope Variable\",sans-serif;box-shadow:0 7px 20px rgba(0,0,0,.28)}.ds-primary:hover{background:#d5ad5e}.ds-primary:focus-visible{outline:2px solid #d5ad5e;outline-offset:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A quiet 44px graphite search surface.",
+      "html": "<input class=\"ds-search\" placeholder=\"Search titles, studios, publishers\u2026\">",
+      "css": ".ds-search{height:44px;width:320px;border:0;border-radius:12px;background:#1c201e;color:#f1eddf;padding:0 13px;font:400 14px \"Manrope Variable\",sans-serif}.ds-search:focus-visible{outline:1px solid #d5ad5e;outline-offset:0}.ds-search::placeholder{color:#7f817b}"
+    },
+    {
+      "name": "Selected Filter",
+      "kind": "chip",
+      "refersTo": "chip-selected",
+      "description": "The selected state for compact filter controls.",
+      "html": "<button class=\"ds-chip\">Steam</button>",
+      "css": ".ds-chip{border:0;border-radius:20px;background:#d5ad5e;color:#17140e;padding:9px 14px;font:750 13px \"Manrope Variable\",sans-serif}.ds-chip:focus-visible{outline:2px solid #d5ad5e;outline-offset:2px}"
+    },
+    {
+      "name": "Accession Card",
+      "kind": "card",
+      "description": "A square-edged 2:3 cover frame with archive footer.",
+      "html": "<article class=\"ds-card\"><div></div><small>0011</small><b>Game title</b></article>",
+      "css": ".ds-card{width:145px;color:#f1eddf;font-family:\"Archivo Variable\",sans-serif}.ds-card div{height:214px;border:1px solid #343936;background:#1c201e}.ds-card small{display:block;color:#aba99f;padding:5px;font-size:9px;letter-spacing:.08em}.ds-card b{display:block;margin-top:8px;font-size:12px}.ds-card:hover div{box-shadow:0 14px 25px rgba(0,0,0,.4)}"
+    },
+    {
+      "name": "Archive Navigation",
+      "kind": "nav",
+      "description": "Graphite rail with a brass active drawer.",
+      "html": "<nav class=\"ds-nav\"><a class=\"active\">Library</a><a>Backlog</a><a>Statistics</a></nav>",
+      "css": ".ds-nav{width:200px;background:#111313;padding:14px;font:400 14px \"Manrope Variable\",sans-serif}.ds-nav a{display:block;color:#aba99f;padding:11px 12px;border-radius:12px}.ds-nav a.active{background:#d5ad5e;color:#17150f;font-weight:750}.ds-nav a:focus-visible{outline:2px solid #d5ad5e;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Personal Game Archive",
+    "overview": "A cross-store collection becomes a carefully indexed physical archive translated into a fast, read-only digital tool.",
+    "keyCharacteristics": [
+      "Dense cover-led browsing",
+      "Graphite tonal layering",
+      "Restrained brass registration marks",
+      "Tactile illustrated fallbacks"
+    ],
+    "rules": [
+      {
+        "name": "Registration Ink",
+        "body": "Archive brass is scarce and marks current state.",
+        "section": "colors"
+      },
+      {
+        "name": "Two-Face",
+        "body": "Archivo organizes; Manrope explains.",
+        "section": "typography"
+      },
+      {
+        "name": "Flat Archive",
+        "body": "Depth communicates state, not decoration.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep source identity small and consistent.",
+      "Do preserve accession labels and visible selection linkage."
+    ],
+    "donts": [
+      "Don't add game-management actions.",
+      "Don't replace the contact sheet with generic metric cards."
+    ]
+  }
+}

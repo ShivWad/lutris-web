@@ -1,0 +1,9 @@
+Use case: logo-brand
+Asset type: production app icon and favicon master for "My Game Library", a local game collection browser.
+Primary request: Create one distinctive square app icon: a compact archive of three upright game cartridges in a low shelf/tray, combining a personal library with gaming. The front cartridge has a single large plus-shaped directional-pad cutout. Two simpler cartridge spines sit just behind it, one subtly leaning, forming a balanced, memorable silhouette.
+Style/medium: precise, professionally designed graphic mark with clean bold shapes, restrained architectural depth and beautiful optical spacing. Original identity, not a known console cartridge design.
+Composition/framing: exactly one centered icon on a 1024x1024 square canvas. The mark occupies approximately 72 percent of the canvas, with comfortable equal outer padding. Large uninterrupted shapes and generous negative space; recognizable when reduced to 32 pixels. Flat frontal or extremely shallow perspective.
+Color palette: solid full-bleed graphite background #0e1010; the mark is warm archive brass #d5ad5e with a very restrained pale parchment #f1eddf edge accent. Strong contrast. The directional-pad cutout is graphite.
+Lighting/mood: warm, quiet, archival, confident; avoid neon gaming aesthetics.
+Text: none.
+Constraints: one finished icon, not a mockup or concept sheet. No words, initials, numbers, interface, surrounding browser, hands, scenery, badges, external shadows, watermark, or existing company trademarks. Do not add a rounded-square border or background container inside the canvas. Keep all edges crisp and small details minimal. Opaque square background.

@@ -1,0 +1,10 @@
+# Enable one-click host exports: docker compose -f compose.yaml -f compose.host.yaml up --build -d
+# First install the host helper with: pnpm host:install
+services:
+  library:
+    environment:
+      LUTRIS_HOST_SOCKET: /host-bridge/refresh.sock
+    group_add:
+      - "${LUTRIS_HOST_GID:-1000}"
+    volumes:
+      - ./data/host-bridge:/host-bridge:ro

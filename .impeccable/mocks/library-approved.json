@@ -1,0 +1,6 @@
+{
+  "approved": true,
+  "selection": "split archive: persistent source navigation, alphabetical cover sheet, metadata ledger",
+  "doNotLiteralize": ["install controls", "play controls", "serif body copy", "fictional system paths"],
+  "source": "imagegen ui-mockup composition study"
+}

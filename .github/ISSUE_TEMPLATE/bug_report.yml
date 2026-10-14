@@ -1,0 +1,71 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a problem. Remove account details and library metadata before submitting.
+
+  - type: dropdown
+    id: run-mode
+    attributes:
+      label: Run mode
+      options:
+        - Local development
+        - Docker Compose with manual export
+        - Docker Compose with host helper
+        - Demo mode
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Operating system, Node.js, pnpm, Docker, and Lutris versions where relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Start with ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs
+      description: Paste only relevant logs. Do not attach real library exports or tokens.
+      render: shell
+
+  - type: dropdown
+    id: lutris-source
+    attributes:
+      label: Do the missing games already appear in the Lutris desktop app?
+      options:
+        - Not applicable
+        - Yes, after reloading the affected store in Lutris
+        - No, they are missing in Lutris too
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed personal library data, account identifiers, and secrets.
+          required: true
