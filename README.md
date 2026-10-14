@@ -4,6 +4,29 @@ A local-first, read-only web browser for game libraries connected to [Lutris](ht
 
 > Early release. Provider exports change over time; malformed or missing metadata should degrade gracefully, but some fields may be unavailable.
 
+## Screenshots
+
+![Desktop library with service filters, game covers, and the selected game's metadata ledger](docs/screenshots/library.png)
+
+Browse your collection across stores, filter the catalog, and inspect ownership records in the side panel.
+
+<details>
+<summary>More screenshots: statistics, multi-store ownership, and Sale Check</summary>
+
+**Library statistics** — Service totals, recorded Steam playtime, and your most-played games.
+
+![Library statistics showing service totals, Steam playtime, and most-played games](docs/screenshots/stats.png)
+
+**Multi-store ownership** — See which games you own on more than one service while keeping distinct editions separate.
+
+![Multi-store ownership list showing matching games and the services where they are owned](docs/screenshots/multi_ownership.png)
+
+**Sale Check** — Search the local index before buying another copy.
+
+![Sale Check showing a matching owned edition and its store](docs/screenshots/sale_check.png)
+
+</details>
+
 ## Features
 
 - Deduplicates equivalent games across stores while keeping distinct editions and DLC separate.

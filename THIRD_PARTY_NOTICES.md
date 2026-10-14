@@ -15,7 +15,7 @@ Files under `public/logos/` identify interoperating services:
 
 These marks remain property of their respective holders. Their inclusion does not imply affiliation or endorsement. Redistributors are responsible for reviewing applicable brand and trademark requirements and may replace or remove these assets without affecting core application behavior.
 
-Runtime game cover images are requested from provider CDNs and are not distributed as part of this repository.
+Runtime game cover images are requested from provider CDNs. Documentation screenshots in `docs/screenshots/` also depict game artwork and provider marks as part of the application's interface. That third-party artwork and branding remain the property of their respective holders and are not licensed under the project's MIT License. No standalone provider cover-art collection is bundled with the application.
 
 The self-hosted Archivo and Manrope fonts are installed through their Fontsource packages and licensed under the SIL Open Font License 1.1. Their original copyright notices and license texts are included with the static assets:
 

@@ -8,6 +8,7 @@
 node_modules
 data
 imports
+docs/screenshots
 *.log
 *.tsbuildinfo
 .env*
